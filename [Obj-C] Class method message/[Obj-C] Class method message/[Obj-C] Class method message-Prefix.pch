@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '[Obj-C] Class method message' target in the '[Obj-C] Class method message' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

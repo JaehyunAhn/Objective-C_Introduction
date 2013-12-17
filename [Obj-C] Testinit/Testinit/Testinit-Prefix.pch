@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Testinit' target in the 'Testinit' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

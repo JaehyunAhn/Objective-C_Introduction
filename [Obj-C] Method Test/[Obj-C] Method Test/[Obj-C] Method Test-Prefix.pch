@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the '[Obj-C] Method Test' target in the '[Obj-C] Method Test' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

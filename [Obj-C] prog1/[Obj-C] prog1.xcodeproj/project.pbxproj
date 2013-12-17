@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E0BD6E216CB91E800C93A97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E0BD6E116CB91E800C93A97 /* Foundation.framework */; };
+		5E0BD6E516CB91E800C93A97 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0BD6E416CB91E800C93A97 /* main.m */; };
+		5E0BD6E916CB91E800C93A97 /* _Obj_C__prog1.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5E0BD6E816CB91E800C93A97 /* _Obj_C__prog1.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5E0BD6DC16CB91E800C93A97 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5E0BD6E916CB91E800C93A97 /* _Obj_C__prog1.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5E0BD6DE16CB91E800C93A97 /* [Obj-C] prog1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "[Obj-C] prog1"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E0BD6E116CB91E800C93A97 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5E0BD6E416CB91E800C93A97 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5E0BD6E716CB91E800C93A97 /* [Obj-C] prog1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "[Obj-C] prog1-Prefix.pch"; sourceTree = "<group>"; };
+		5E0BD6E816CB91E800C93A97 /* _Obj_C__prog1.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _Obj_C__prog1.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E0BD6DB16CB91E800C93A97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0BD6E216CB91E800C93A97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E0BD6D516CB91E800C93A97 = {
+			isa = PBXGroup;
+			children = (
+				5E0BD6E316CB91E800C93A97 /* [Obj-C] prog1 */,
+				5E0BD6E016CB91E800C93A97 /* Frameworks */,
+				5E0BD6DF16CB91E800C93A97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E0BD6DF16CB91E800C93A97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E0BD6DE16CB91E800C93A97 /* [Obj-C] prog1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E0BD6E016CB91E800C93A97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0BD6E116CB91E800C93A97 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5E0BD6E316CB91E800C93A97 /* [Obj-C] prog1 */ = {
+			isa = PBXGroup;
+			children = (
+				5E0BD6E416CB91E800C93A97 /* main.m */,
+				5E0BD6E816CB91E800C93A97 /* _Obj_C__prog1.1 */,
+				5E0BD6E616CB91E800C93A97 /* Supporting Files */,
+			);
+			path = "[Obj-C] prog1";
+			sourceTree = "<group>";
+		};
+		5E0BD6E616CB91E800C93A97 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5E0BD6E716CB91E800C93A97 /* [Obj-C] prog1-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E0BD6DD16CB91E800C93A97 /* [Obj-C] prog1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E0BD6EC16CB91E800C93A97 /* Build configuration list for PBXNativeTarget "[Obj-C] prog1" */;
+			buildPhases = (
+				5E0BD6DA16CB91E800C93A97 /* Sources */,
+				5E0BD6DB16CB91E800C93A97 /* Frameworks */,
+				5E0BD6DC16CB91E800C93A97 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "[Obj-C] prog1";
+			productName = "[Obj-C] prog1";
+			productReference = 5E0BD6DE16CB91E800C93A97 /* [Obj-C] prog1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E0BD6D616CB91E800C93A97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sonnet;
+			};
+			buildConfigurationList = 5E0BD6D916CB91E800C93A97 /* Build configuration list for PBXProject "[Obj-C] prog1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5E0BD6D516CB91E800C93A97;
+			productRefGroup = 5E0BD6DF16CB91E800C93A97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E0BD6DD16CB91E800C93A97 /* [Obj-C] prog1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E0BD6DA16CB91E800C93A97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E0BD6E516CB91E800C93A97 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5E0BD6EA16CB91E800C93A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5E0BD6EB16CB91E800C93A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5E0BD6ED16CB91E800C93A97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "[Obj-C] prog1/[Obj-C] prog1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5E0BD6EE16CB91E800C93A97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "[Obj-C] prog1/[Obj-C] prog1-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E0BD6D916CB91E800C93A97 /* Build configuration list for PBXProject "[Obj-C] prog1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0BD6EA16CB91E800C93A97 /* Debug */,
+				5E0BD6EB16CB91E800C93A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E0BD6EC16CB91E800C93A97 /* Build configuration list for PBXNativeTarget "[Obj-C] prog1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E0BD6ED16CB91E800C93A97 /* Debug */,
+				5E0BD6EE16CB91E800C93A97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E0BD6D616CB91E800C93A97 /* Project object */;
+}

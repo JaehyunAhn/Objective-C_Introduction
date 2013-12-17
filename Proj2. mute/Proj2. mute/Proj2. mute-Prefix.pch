@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Proj2. mute' target in the 'Proj2. mute' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif

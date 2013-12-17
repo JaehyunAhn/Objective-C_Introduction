@@ -1,0 +1,5 @@
+:
+
+Objective-C initially contains git in itself, thus it confueses user to upload.
+
+I learend that keyword submodule from this experience

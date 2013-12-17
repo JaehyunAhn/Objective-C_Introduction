@@ -1,0 +1,253 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EC33E3316C33658001EB846 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC33E3216C33658001EB846 /* Foundation.framework */; };
+		5EC33E3616C33658001EB846 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC33E3516C33658001EB846 /* main.m */; };
+		5EC33E3A16C33658001EB846 /* _Obj_C__RGB.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5EC33E3916C33658001EB846 /* _Obj_C__RGB.1 */; };
+		5EC33E4216C33675001EB846 /* RGB.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC33E4116C33675001EB846 /* RGB.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5EC33E2D16C33658001EB846 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5EC33E3A16C33658001EB846 /* _Obj_C__RGB.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5EC33E2F16C33658001EB846 /* [Obj-C] RGB */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "[Obj-C] RGB"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EC33E3216C33658001EB846 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5EC33E3516C33658001EB846 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5EC33E3816C33658001EB846 /* [Obj-C] RGB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "[Obj-C] RGB-Prefix.pch"; sourceTree = "<group>"; };
+		5EC33E3916C33658001EB846 /* _Obj_C__RGB.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = _Obj_C__RGB.1; sourceTree = "<group>"; };
+		5EC33E4016C33675001EB846 /* RGB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RGB.h; sourceTree = "<group>"; };
+		5EC33E4116C33675001EB846 /* RGB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RGB.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EC33E2C16C33658001EB846 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC33E3316C33658001EB846 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EC33E2616C33658001EB846 = {
+			isa = PBXGroup;
+			children = (
+				5EC33E3416C33658001EB846 /* [Obj-C] RGB */,
+				5EC33E3116C33658001EB846 /* Frameworks */,
+				5EC33E3016C33658001EB846 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EC33E3016C33658001EB846 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EC33E2F16C33658001EB846 /* [Obj-C] RGB */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EC33E3116C33658001EB846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EC33E3216C33658001EB846 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5EC33E3416C33658001EB846 /* [Obj-C] RGB */ = {
+			isa = PBXGroup;
+			children = (
+				5EC33E3516C33658001EB846 /* main.m */,
+				5EC33E4016C33675001EB846 /* RGB.h */,
+				5EC33E4116C33675001EB846 /* RGB.m */,
+				5EC33E3916C33658001EB846 /* _Obj_C__RGB.1 */,
+				5EC33E3716C33658001EB846 /* Supporting Files */,
+			);
+			path = "[Obj-C] RGB";
+			sourceTree = "<group>";
+		};
+		5EC33E3716C33658001EB846 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EC33E3816C33658001EB846 /* [Obj-C] RGB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EC33E2E16C33658001EB846 /* [Obj-C] RGB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EC33E3D16C33658001EB846 /* Build configuration list for PBXNativeTarget "[Obj-C] RGB" */;
+			buildPhases = (
+				5EC33E2B16C33658001EB846 /* Sources */,
+				5EC33E2C16C33658001EB846 /* Frameworks */,
+				5EC33E2D16C33658001EB846 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "[Obj-C] RGB";
+			productName = "[Obj-C] RGB";
+			productReference = 5EC33E2F16C33658001EB846 /* [Obj-C] RGB */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EC33E2716C33658001EB846 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sonnet;
+			};
+			buildConfigurationList = 5EC33E2A16C33658001EB846 /* Build configuration list for PBXProject "[Obj-C] RGB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5EC33E2616C33658001EB846;
+			productRefGroup = 5EC33E3016C33658001EB846 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EC33E2E16C33658001EB846 /* [Obj-C] RGB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EC33E2B16C33658001EB846 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EC33E3616C33658001EB846 /* main.m in Sources */,
+				5EC33E4216C33675001EB846 /* RGB.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5EC33E3B16C33658001EB846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5EC33E3C16C33658001EB846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5EC33E3E16C33658001EB846 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "[Obj-C] RGB/[Obj-C] RGB-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EC33E3F16C33658001EB846 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "[Obj-C] RGB/[Obj-C] RGB-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EC33E2A16C33658001EB846 /* Build configuration list for PBXProject "[Obj-C] RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC33E3B16C33658001EB846 /* Debug */,
+				5EC33E3C16C33658001EB846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EC33E3D16C33658001EB846 /* Build configuration list for PBXNativeTarget "[Obj-C] RGB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EC33E3E16C33658001EB846 /* Debug */,
+				5EC33E3F16C33658001EB846 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EC33E2716C33658001EB846 /* Project object */;
+}
